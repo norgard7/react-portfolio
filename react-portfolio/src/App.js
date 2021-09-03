@@ -3,7 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import Header from './components/NavBar/Header';
 import Main from './components/NavBar/Main/index';
 import About from './components/NavBar/About/About';
-import Projects from './components/NavBar/Projects/Projects'
+import Projects from './components/NavBar/Projects/Projects';
+import Footer from './components/NavBar/footer/footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
             <Main />
             <About />
             <Projects />
+            <Footer />
           </div>
       </div>
   );

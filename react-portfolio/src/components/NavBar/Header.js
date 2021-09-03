@@ -2,12 +2,12 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-import Logo from "../../images/white Lauren Norgard owl.png"
+import Logo from "../../images/logo.png";
 
 function Header() {
     return (
   <div>
-  <Navbar bg="dark" variant="dark">
+  <Navbar id="navbar">
     <Container>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">

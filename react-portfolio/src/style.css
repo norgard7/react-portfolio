@@ -10,6 +10,7 @@ html {
 }
 
 
+
 /* General headings & paragraph formatting */
 h3 {
     font-size: 3rem;
@@ -20,47 +21,35 @@ p {
     /* width: 25%; */
 }
 .container-background {
-    background-color: #B0CDB6;
     padding: 7% 15%;
 }
-
-
-/* Navbar  */
-.navbar {
-    background-color: #B0CDB6;
-   
-}
-
+/* NavBar */
+/* #navbar {
+    background-color: #EFEBEB;
+} */
 /* styling-font color for ul li a*/
 
 .navbar-light .navbar-nav .nav-link {
-    color:#2F3131 ;
+    color:black ;
+    font-weight: 800;
     font-size: 2rem;
     margin-right:2rem; 
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #fff;
+    color: #2f5d62;
 }
 
 ul li a {
     text-decoration: none;
 }
 
-
-/* Intro section */
-#quote {
-    border: #B0CDB6 8px dotted;
-    width: 55%;
-    height: 35%;
-    font-size: 4vw;
-    display: inline-block;
-    text-align: center;
-    line-height: 1.2;
-    padding: 3%;
-    color: #2F3131;    
-   
-}
+/* main content */
+/* .right-image {
+    background: url(./images/evie-s-vz3IQy0LOaA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 /* About Me Section */
 .aboutme {
     color:#2F3131;
