@@ -9,11 +9,11 @@ function Main() {
   return (
 <div className="row" id="/">
       <Header />
-      <div className="w-100">
-        <div className="col w-50 d-inline-flex">
+      <div className="vh-100">
+        <div className="col w-50 d-inline-flex h-100 align-items-center">
           <div className="text-center d-inline-block col justify-content-center">
             <h2>Web Developer</h2>
-            <h3>Interested in hiring me?</h3>
+            <h3 className="py-3 px-5">This is going to my intro sentence Interested in hiring me?</h3>
             <button type="button" class="btn btn-outline-dark">Read More</button>
           </div>
         </div>
