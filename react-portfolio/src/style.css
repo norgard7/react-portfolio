@@ -24,36 +24,30 @@ p {
     padding: 7% 15%;
 }
 /* NavBar */
-/* #navbar {
-    background-color: #EFEBEB;
-} */
-/* styling-font color for ul li a*/
 
-.navbar-light .navbar-nav .nav-link {
-    color:black ;
-    font-weight: 800;
-    font-size: 2rem;
-    margin-right:2rem; 
+/* styling-font color navbar a*/
+#navbar {
+  margin-top: 2%;
 }
-
-.navbar-light .navbar-nav .nav-link:hover {
+a:hover {
     color: #2f5d62;
-}
-
-ul li a {
+} 
+a{
+  color: black;
+  font-weight: 800;
+    font-size: 2rem;
+    margin-right:2rem;
     text-decoration: none;
 }
 
-/* main content */
-/* .right-image {
-    background: url(./images/evie-s-vz3IQy0LOaA-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+
+
 /* About Me Section */
 .aboutme {
-    color:#2F3131;
-    font-size: 4.5rem;
+    color:black;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 6.5rem;
     display: block;
     text-align: center;
 }
@@ -84,7 +78,7 @@ ul li a {
   }
   
   .icon-img:hover {
-    color: #B0CDB6;
+    color: #D9BBCF;
   }
 
 
@@ -95,24 +89,46 @@ ul li a {
 }
 /* refractor with aboutme if time allows*/
 #my-work {
-    color:#2F3131;
+    color:black;
     font-size: 4.5rem;
     display: block;
     text-align: center; 
 }
-
+/* .container-background {
+   
+} */
   .work-text {
     font-size: 3rem;
     line-height: 1.2;
-    color: #2F3131;
+    color: black;
     display: inline-block;
     text-align: center;
   }
 .work-para {
     text-align: center;
-    color: #2F3131;
+    color: black;
     padding: 3%;
 }
+/* carousal project buttons */
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+} */
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color:#2f5d62;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color:#2f5d62;
+}
+
 .btn {
     /* width: 25%; */
     font-size: 1.5rem;
