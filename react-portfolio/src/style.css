@@ -10,7 +10,13 @@ html {
 }
 
 
-
+.main-h2 {
+  font-size: 4.5rem;
+  padding-bottom: 6%;
+}
+.main-btn {
+  margin-top: 4%;
+}
 /* General headings & paragraph formatting */
 h3 {
     font-size: 3rem;
@@ -40,7 +46,10 @@ a{
     text-decoration: none;
 }
 
-
+/* mainpage  */
+.flower {
+  height: 800px;
+}
 
 /* About Me Section */
 .aboutme {

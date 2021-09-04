@@ -8,6 +8,8 @@ import Main from './Main/index';
 import Projects from './Projects/Projects';
 import About from './About/About';
 import Contact from './Contact/Contact';
+import Resume from './Resume/Resume';
+
 
 
 
@@ -55,10 +57,10 @@ export default function BasicExample() {
        <Nav className="justify-content-evenly w-100 align-items-center">    
          <Link to="/Projects">Projects</Link>
          <Link to="/About">About</Link>
-         {/* Homepage link goes back to home */}
+         {/* Homepage logo goes back to home */}
          <Navbar.Brand href="/Home">
          <img alt="" src={Logo} width="250" height="100" className="d-inline-block align-top"/>{' '}</Navbar.Brand>
-        <Link to="/Resume">Resume</Link>
+         <Link to="/Resume">Resume</Link>
         <Link to="/Contactme">Contact Me</Link>
         
       </Nav>
@@ -115,10 +117,10 @@ function Project() {
   );
 }
 
-function Resume() {
-  return (
-    <div>
-      <Resume />
-    </div>
-  );
-}
+// function resume() {
+//   return (
+//     <div>
+//       <a href="../images/Lauren Norgard Resume 2021..pdf">resume</a>
+//     </div>
+//   );
+// }
