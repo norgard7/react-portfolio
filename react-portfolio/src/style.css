@@ -8,6 +8,16 @@
 html {
     font-size: 62.5%;
 }
+/* used all over site */
+.h1-title {
+  font-weight: bold;
+  font-size: 5vh;
+  margin-top: 8vh;
+}
+.h2-title {
+  font-size: 4vh;
+  font-weight: bold;
+}
 
 
 .main-h2 {
@@ -91,7 +101,7 @@ a{
   }
 
 
-  /* work section */
+  /* Project/work section */
   
 .border-box-image {
     background-color: #fff;
@@ -103,9 +113,7 @@ a{
     display: block;
     text-align: center; 
 }
-/* .container-background {
-   
-} */
+
   .work-text {
     font-size: 3rem;
     line-height: 1.2;
@@ -118,12 +126,7 @@ a{
     color: black;
     padding: 3%;
 }
-/* carousal project buttons */
-/* .carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 50px;
-  width: 50px;
-} */
+
 
 .carousel-control-next-icon:after
 {
@@ -162,6 +165,24 @@ a{
  .project-image {
      height: 95%;
      width: 45%;
+ }
+ /* contact page form */
+ .contactForm {
+   width: 80vh;
+  background-color: #D9BBCF;
+   font-size: 25px;
+   border: #D9BBCF solid 8px;
+
+ }
+
+ .contact-btn {
+   padding: 5px;
+   
+ }
+
+ /* Resume unordered Lists */
+ .ul {
+   font-size: 2.5vh;
  }
 
 /* footer social icons */

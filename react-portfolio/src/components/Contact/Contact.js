@@ -47,27 +47,29 @@ function Contact() {
   };
   return (
     <div>   
-        <h1>Contact Me</h1>
-        <Form>
+        <h1 className="text-center h1-title">Contact Me</h1>
+        <Form className="contactForm mx-auto">
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="name@example.com" value={email} name="email" onChange={handleInputChange} />
+            <Form.Label>Name:</Form.Label>
+            <Form.Control type="text" placeholder="Enter name" value={name} name="name" onChange={handleInputChange} />
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>Name</Form.Label>
-            <Form.Control type="text" placeholder="name" value={name} name="name" onChange={handleInputChange} />
+            <Form.Label>Email address:</Form.Label>
+            <Form.Control type="email" placeholder="name@example.com" value={email} name="email" onChange={handleInputChange} />
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
             <Form.Label>Message:</Form.Label>
             <Form.Control as="textarea" rows={3} value={message} name="message" onChange={handleInputChange}/>
           </Form.Group>
-          <button type="button" onClick={handleFormSubmit}>Submit</button>
-        </Form>
+          <div  className="d-flex justify-content-center">
+            <button className="contact-btn" type="button" onClick={handleFormSubmit}>Submit</button>
+          </div>
         {errorMessage && (
                 <div>
                   <p className="error-text">{errorMessage}</p>
                 </div>
               )}
+          </Form>        
     </div>
   );
 
