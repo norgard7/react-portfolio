@@ -5,7 +5,7 @@ function About() {
         <div>
         <section className="about-box section-box" id="about">
             <div className="section-header">
-                <h3 className="aboutme p-5 text-center">About Me</h3>
+                <h3 className="aboutme h1-title text-center">About Me</h3>
             </div>
         </section>
         <section id="about">

@@ -8,7 +8,8 @@ import Main from './Main/index';
 import Projects from './Projects/Projects';
 import About from './About/About';
 import Contact from './Contact/Contact';
-import Resume from './Resume/Resume';   
+import Resume from './Resume/Resume';
+import Error404 from './404';   
 
 export default function Header() {
   return (
@@ -22,8 +23,8 @@ export default function Header() {
          <Link to="/Projects">Projects</Link>
          <Link to="/About">About</Link>
          {/* Homepage logo goes back to home */}
-         <Navbar.Brand href="/Home">
-         <img alt="" src={Logo} width="250" height="100" className="d-inline-block align-top"/>{' '}</Navbar.Brand>
+         <Navbar.Brand href="/react-portfolio">
+         <img alt="" src={Logo} width="250" height="100" className="d-inline-block align-top"/>{''}</Navbar.Brand>
          <Link to="/Resume">Resume</Link>
         <Link to="/Contactme">Contact Me</Link>
         
@@ -33,7 +34,13 @@ export default function Header() {
 </Navbar>
 
         <Switch>
-          <Route exact path="/Home">
+          <Route exact path="/">
+            <Main />
+          </Route>
+          <Route exact path="/404">
+            <Main />
+          </Route>
+          <Route exact path="/react-portfolio/">
             <Main />
           </Route>
           <Route path="/About">

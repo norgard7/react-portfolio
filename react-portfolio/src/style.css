@@ -62,14 +62,14 @@ a{
 }
 
 /* About Me Section */
-.aboutme {
+/* .aboutme {
     color:black;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-bottom: 2%;
     font-size: 6.5rem;
     display: block;
     text-align: center;
-}
+} */
 
 .fact-boxes{
     margin-bottom: 10%;
@@ -162,10 +162,10 @@ a{
      border-radius: 100%;
      margin: 5%;
  }
- .project-image {
+ /* .project-image {
      height: 95%;
      width: 45%;
- }
+ } */
  /* contact page form */
  .contactForm {
    width: 80vh;
