@@ -21,12 +21,12 @@ export default function Header() {
      <Navbar.Collapse id="basic-navbar-nav">
        <Nav className="justify-content-evenly w-100 align-items-center">    
          <Link to="/react-portfolio/Projects">Projects</Link>
-         <Link to="/About">About</Link>
+         <Link to="/react-portfolio/About">About</Link>
          {/* Homepage logo goes back to home */}
-         <Navbar.Brand href="/">
+         <Navbar.Brand href="/react-portfolio/">
          <img alt="" src={Logo} width="250" height="100" className="d-inline-block align-top"/>{''}</Navbar.Brand>
-         <Link to="/Resume">Resume</Link>
-        <Link to="/Contactme">Contact Me</Link>
+         <Link to="/react-portfolio/Resume">Resume</Link>
+        <Link to="/react-portfolio/Contactme">Contact Me</Link>
         
       </Nav>
     </Navbar.Collapse>
@@ -34,9 +34,6 @@ export default function Header() {
 </Navbar>
 
         <Switch>
-          <Route exact path="/">
-            <Main />
-          </Route>
           <Route exact path="/react-portfolio/">
             <Main />
           </Route>
@@ -46,10 +43,10 @@ export default function Header() {
           <Route path="/react-portfolio/Projects">
             <Projects />
           </Route>
-          <Route path="/Resume">
+          <Route path="/react-portfolio/Resume">
             <Resume />
           </Route>
-          <Route path="/Contactme">
+          <Route path="/react-portfolio/Contactme">
             <Contact />
           </Route>
         </Switch>
@@ -58,27 +55,4 @@ export default function Header() {
   );
 }
 
-// function main() {
-//   return (
-//     <div>
-//       <Main />
-//     </div>
-//   );
-// }
-
-// function about() {
-//   return (
-//     <div>
-//       <About />
-//     </div>
-//   );
-// }
-
-// function Project() {
-//   return (
-//     <div>
-//       <Project />
-//     </div>
-//   );
-// }
 
