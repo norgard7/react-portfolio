@@ -23,7 +23,7 @@ export default function Header() {
          <Link to="/Projects">Projects</Link>
          <Link to="/About">About</Link>
          {/* Homepage logo goes back to home */}
-         <Navbar.Brand href="/react-portfolio">
+         <Navbar.Brand href="/react-portfolio/">
          <img alt="" src={Logo} width="250" height="100" className="d-inline-block align-top"/>{''}</Navbar.Brand>
          <Link to="/Resume">Resume</Link>
         <Link to="/Contactme">Contact Me</Link>
@@ -35,9 +35,6 @@ export default function Header() {
 
         <Switch>
           <Route exact path="/">
-            <Main />
-          </Route>
-          <Route exact path="/404">
             <Main />
           </Route>
           <Route exact path="/react-portfolio/">
@@ -55,6 +52,9 @@ export default function Header() {
           <Route path="/Contactme">
             <Contact />
           </Route>
+          {/* <default>
+            <Main />
+          </default> */}
         </Switch>
       </div>
     </Router>
