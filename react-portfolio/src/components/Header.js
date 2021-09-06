@@ -9,7 +9,7 @@ import Projects from './Projects/Projects';
 import About from './About/About';
 import Contact from './Contact/Contact';
 import Resume from './Resume/Resume';
-import Error404 from './404';   
+// import Error404 from './404';   
 
 export default function Header() {
   return (
@@ -20,10 +20,10 @@ export default function Header() {
      <Navbar.Toggle aria-controls="basic-navbar-nav" />
      <Navbar.Collapse id="basic-navbar-nav">
        <Nav className="justify-content-evenly w-100 align-items-center">    
-         <Link to="/Projects">Projects</Link>
+         <Link to="/react-portfolio/Projects">Projects</Link>
          <Link to="/About">About</Link>
          {/* Homepage logo goes back to home */}
-         <Navbar.Brand href="/react-portfolio/">
+         <Navbar.Brand href="/">
          <img alt="" src={Logo} width="250" height="100" className="d-inline-block align-top"/>{''}</Navbar.Brand>
          <Link to="/Resume">Resume</Link>
         <Link to="/Contactme">Contact Me</Link>
@@ -43,7 +43,7 @@ export default function Header() {
           <Route path="/About">
             <About />
           </Route>
-          <Route path="/Projects">
+          <Route path="/react-portfolio/Projects">
             <Projects />
           </Route>
           <Route path="/Resume">
@@ -52,36 +52,33 @@ export default function Header() {
           <Route path="/Contactme">
             <Contact />
           </Route>
-          {/* <default>
-            <Main />
-          </default> */}
         </Switch>
       </div>
     </Router>
   );
 }
 
-function main() {
-  return (
-    <div>
-      <Main />
-    </div>
-  );
-}
+// function main() {
+//   return (
+//     <div>
+//       <Main />
+//     </div>
+//   );
+// }
 
-function about() {
-  return (
-    <div>
-      <About />
-    </div>
-  );
-}
+// function about() {
+//   return (
+//     <div>
+//       <About />
+//     </div>
+//   );
+// }
 
-function Project() {
-  return (
-    <div>
-      <Project />
-    </div>
-  );
-}
+// function Project() {
+//   return (
+//     <div>
+//       <Project />
+//     </div>
+//   );
+// }
 
