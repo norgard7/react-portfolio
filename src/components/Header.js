@@ -24,7 +24,7 @@ export default function Header() {
          <Link to="/react-portfolio/About">About</Link>
          {/* Homepage logo goes back to home */}
          {/* <Navbar.Brand href="/react-portfolio/"> There is is also a closing tag </Navbar.Brand*/}
-         <Link to="/react-portfolio/"><img alt="" src={Logo} width="250" height="100" className="d-inline-block align-top"/>{''}</Link>
+         <a href="/react-portfolio"><img alt="" src={Logo} width="250" height="100" className="d-inline-block align-top"/></a>{''}
          <Link to="/react-portfolio/Resume">Resume</Link>
         <Link to="/react-portfolio/Contactme">Contact Me</Link>
         
