@@ -4,7 +4,7 @@ import Header from './Header';
 import Main from './Main/index';
 
 function Homepage() {
-        if (Homepage === 'https://norgard7.github.io/react-portfolio/') {
+        if (Homepage === 'https://norgard7.github.io') {
             return ( 
             <div style={{height: "100%"}}>
                 <Header/>
