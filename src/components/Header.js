@@ -34,7 +34,7 @@ export default function Header() {
 </Navbar>
 
         <Switch>
-          <Route exact path="/react-portfolio">
+          <Route exact path="/react-portfolio/About">
             <Main />
           </Route>
           <Route path="/react-portfolio/About">
