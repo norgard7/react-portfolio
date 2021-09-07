@@ -13,7 +13,7 @@ function Main() {
           <div className="col text-center d-inline-block flex-direction-center position-relative">
             <h2 className="main-h2">Web Developer</h2>
             <h3 className="px-5">A love for designing and developing beautiful content and code.</h3>
-            <a href="../about/about"> <button type="button" className="btn btn-outline-dark main-btn">Read More</button></a>
+            <a href="./About/About"> <button type="button" className="btn btn-outline-dark main-btn">Read More</button></a>
           </div>
         </div>
         <div className="col w-50 d-inline-flex right-image">
