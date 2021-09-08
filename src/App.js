@@ -26,7 +26,7 @@ function App() {
             <Route path="/Resume" component= {Resume} />
             <Route path="/Contactme" component= {Contact} />
             <Route path ="/" exact component= {Main} />
-            <Route path ="/react-portfolio" component= {Main} />
+            <Route path ="/react-portfolio/" component= {Main} />
          </Switch>
          <Footer />
       </div>
