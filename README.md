@@ -1,8 +1,20 @@
-# Getting Started with Create React App
+# budget-tracker
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  ## Table Of Contents
+* [Installation](#Installation)
+* [Description](#description)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
+* [Questions](#questions)
 
-## Available Scripts
+
+
+## Description
+Portfolio using React to showcase some skills. The portfolio also contains other projects that using various coding languages. 
+
+## Installation
 
 In the project directory, you can run:
 
@@ -39,32 +51,35 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Usage 
+Easily access projects that i've created, and my resume and information about me.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
+NA
 
-### Code Splitting
+## Images
+Homepage
+<img width="1258" alt="Screen Shot 2021-09-09 at 7 58 50 PM" src="https://user-images.githubusercontent.com/74121562/132781781-95eac5a1-e461-4bd4-8c52-1c8ac8296d9a.png">
+Projects
+<img width="1236" alt="Screen Shot 2021-09-09 at 7 59 00 PM" src="https://user-images.githubusercontent.com/74121562/132781815-e4265f27-f8c4-469e-8f40-75bd4acf91ac.png">
+About
+<img width="1079" alt="Screen Shot 2021-09-09 at 7 59 16 PM" src="https://user-images.githubusercontent.com/74121562/132781849-5cffd255-4285-4616-b1e5-41a32b1d05cf.png">
+Resume
+<img width="1121" alt="Screen Shot 2021-09-09 at 7 59 27 PM" src="https://user-images.githubusercontent.com/74121562/132781859-af3a96c4-6add-4e37-b02f-c21a1f42dd4b.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License 
+[MIT](https://opensource.org/licenses/MIT)
 
-### Advanced Configuration
+## Questions? 
+Please contact via email at <lauren.c.norgard@gmail.com> or via github at <http://www.github.com/norgard7>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Github Hosted Website (See it live)
+https://norgard7.github.io/react-portfolio/
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
